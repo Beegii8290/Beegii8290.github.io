@@ -1,0 +1,430 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+.header{
+    display: flex;
+    box-sizing: border-box;
+}
+.lefty{
+    width: 15%;
+    height: 45px;
+    border-bottom: 1px solid #F5F5F5;
+    border-right: 1px solid #f5f5f5;
+    vertical-align: middle;
+    line-height: 12px;
+    
+}
+.middle{
+    width: 65%;
+    height: 45px;
+    border-bottom: 1px solid #F5F5F5;
+    border-right: 1px solid #f5f5f5;
+}
+.huvi{
+    float: right;
+    width: fit-content;    
+}
+.huvi:hover{
+    cursor: pointer;
+}
+.tex{
+    padding:0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.baig{
+    float: left;
+    width: fit-content;
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    line-height: 43px;
+}
+.baig:hover{
+    cursor: pointer;
+}
+.se{
+    height: 45px;
+    width: 45px;
+    float: right;
+    object-fit: cover;
+}
+.se:hover{
+    cursor: pointer;
+}
+.search{
+    padding:10px;
+    float: right;
+    width: 100%;
+    height: 100%;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    margin-right: 10px;
+    float: right;
+    margin-top: 14px;
+  }
+  .arrow:hover{
+      cursor: pointer;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .log{
+    width: 10%;
+    height: 45px;
+    border-bottom: 1px solid #F5F5F5;
+    border-right: 1px solid #f5f5f5;
+  }
+  .log:hover{
+      cursor: pointer;
+  }
+  .texx{
+    padding:0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.cart{
+    width: 10%;
+    height: 45px;
+    border-bottom: 1px solid #F5F5F5;
+    border-right: 1px solid #f5f5f5;
+}
+.carty{
+    margin-left: 15px;
+    padding-top: 10px;
+}
+.carty:hover{
+    cursor: pointer;
+}
+.clr{
+    clear: both;
+}
+.body1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.header1{
+    width: 25%;
+    height: 100px;
+}
+.header1:hover{
+    cursor: pointer;
+    
+}
+.gmob{
+    width: 70%;
+    height: 100%;
+    margin-left: 50px;
+}
+.menus{
+    width: 75%;
+    height: 100px;
+    display: flex;
+}
+.daraa{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.daraa:hover{
+    cursor: pointer;
+    
+}
+.dar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color:#333;
+    font-weight: 400;
+}
+.dar:hover{
+    color: #f1c40f;
+}
+.daraaa{
+    width: 12%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.daraaa:hover{
+    cursor: pointer;
+}
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  .body2{
+      width: 100%;
+      height: 270px;
+      display: flex;
+  }
+  .dugaar{
+      width: 17%;
+      margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .circle{
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      background-color: #d3d3d3;
+      margin-left: 65px;
+      margin-top: 30px;
+  }
+  .circle:hover{
+      cursor: pointer;
+      background-color: #ffc324;
+  }
+  .user{
+      width: 50%;
+      height: 50%;
+      object-fit:fill;
+      align-items: center;
+      margin-top: 25%;
+      
+  }
+  .shine{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    color:#333;
+    font-weight: 400;
+  }
+  .on{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color:#333;
+    font-weight: 400;
+  }
+  .medee{
+      width: 100%;
+      background-color:  #fcfcfc;
+  }
+  .medeelel{
+      float: left;
+      font-size: 1.6em;
+      margin-left: 50px;
+      font-family:Arial, Helvetica, sans-serif;
+      margin-bottom: 15px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid black;
+  }
+  
+  .sum{
+      background-color: #ffc324;
+      float: right;
+      margin-right: 50px;
+      width: 30px;
+      height: 30px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-top: 20px;
+  }
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  .arrows{
+    border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  }
+  .div1{
+    width: 100%;
+    background-color:  #fcfcfc;
+    height: 330px;
+    display: flex;
+  }
+  .div2{
+      width: 21%;
+      height: 200px;
+      margin-left: 5%;
+  }
+  .div3{
+      width: 21%;
+      height: 200px;
+      margin-left: 2%;
+  }
+  .img1{
+      width: 100%;
+      height: 100%;
+      object-fit:cover;
+  }
+  .w{
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+  }
+  p:Hover{
+      cursor: pointer;
+  }
+  .footer{
+      display: flex;
+      background-color: #666;
+      width: 100%;
+      margin-top: 20px;
+  }
+  
+   
+  
+  .foot1{
+      width: 21%;
+      margin-left: 5%;
+  }
+  .para{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.2em;
+      padding-bottom:5px;
+      border-bottom:1px solid #ffc324;
+      color:white;
+  }
+  .list{
+    display: list-item;
+    padding-inline-start: 1ch;
+    color:white;
+    list-style-type: ">";
+    font-size: 0.8em;
+  }
+  .foot2{
+      width: 21%;
+      margin-left: 2%;
+  }
+  .foot3{
+      width: 21%;
+      margin-left: 2%;
+      margin-right: 3%;
+  }
+  .qp{
+      width: 50%;
+      height: 30%;
+      object-fit: cover;
+  }
+ .hayg{
+     color: white;
+     font-size: 0.8em;
+ }
+ .erh{
+    background-color: #666;
+    height: 60px;
+    margin-top: -3px;
+    padding-top: 12px;
+    border-top: 1px dotted white;
+ }
+ .hhk{
+     margin-bottom: 10px;
+     color: white;
+    font-size: 0.8em;
+    margin-left: 50px;
+ }
